@@ -48,17 +48,3 @@ src/
   components/       # общие UI-блоки (включая AnalysisSection)
   types/            # общие типы
 ```
-
-## Git и публикация
-
-В репозитории уже настроены:
-- `.gitignore` (игнор `node_modules`, `dist`, `.env*`, кэшей и локальных артефактов)
-- `.editorconfig`
-- `.gitattributes`
-
-Для первой публикации на GitHub:
-
-```bash
-git remote add origin <repo-url>
-git push -u origin main
-```
