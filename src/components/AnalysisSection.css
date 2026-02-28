@@ -1,0 +1,89 @@
+.analysis-container {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  details {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    border: 1px solid #444;
+    overflow: hidden;
+  }
+  
+  summary {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #333;
+    user-select: none;
+    transition: background 0.3s;
+  }
+  
+  summary:hover {
+    background-color: #444;
+  }
+  
+  .analysis-content {
+    padding: 20px;
+    background-color: #242424;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  /* Таблица */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+  }
+  
+  .comparison-table th, 
+  .comparison-table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .comparison-table th {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  /* Карточки выводов */
+  .conclusions {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  }
+  
+  .card {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+  }
+  
+  .context-card h4 { color: #646cff; margin-top: 0; }
+  .redux-card h4 { color: #ff4444; margin-top: 0; }
+  
+  ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 5px; color: #ccc; }
+  
+  .faq-section {
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #4caf50;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
